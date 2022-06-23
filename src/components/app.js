@@ -57,7 +57,7 @@ function App() {
             <ProtectedRoute path="/" component={Home} {...props} />
           </Switch>
         </Router>
-      </AuthProvider >
+      </AuthProvider>
     </ErrorBoundary>
   );
 

@@ -13,11 +13,11 @@ export default function Home(props) {
   useEffect(() => {
     // dispatch async thunks are promises
     // https://redux-toolkit.js.org/api/createAsyncThunk#unwrapping-result-actions
-    dispatch(createWidget({ title: 'my title', type: 'my type', photo: 'http://placekitten.com/200/300' }))
-      .then(() => {
-        dispatch(fetchAllWidgets());
-      });
-  }, [dispatch]);
+    // dispatch(createWidget({ title: 'my title', type: 'my type', photo: 'http://placekitten.com/200/300' }))
+    //   .then(() => {
+    dispatch(fetchAllWidgets());
+  });
+  // }, [dispatch]);
 
   const { register, handleSubmit, reset, formState: { errors } } = useForm();
   const { ref: titleRef, ...titleRest } = register('title', { required: true });
@@ -44,7 +44,7 @@ export default function Home(props) {
   return (
     <Layout {...props}>
       <nav className="d-flex flex-column align-items-center">
-        <h1 className="my-3 text-center">My Project</h1>
+        <h1 className="my-3 text-center" style={{ color: "blue" }}>My Awesome Project</h1>
         <section>
           {!isLoaded && 'Widgets loading…'}
           {hasErrors && 'Error Loading'}
@@ -66,7 +66,19 @@ export default function Home(props) {
                 </FormGroup>
                 <Button type="submit" color="primary">Save Widget</Button>
               </Form>
-              <pre style={{width:"300px"}}>{JSON.stringify(data, null, 2)}</pre>
+              {/* <pre style={{ width: "300px" }}>
+                {JSON.stringify(data, null, 2)}
+
+              </pre> */}
+              {data.map(datum => {
+                return (
+                  <div>
+                    <div>{datum.title}</div>
+                    <div>{datum.type}</div>
+                    <img src={datum.photo} style={{ height: "100px" }} />
+                  </div>
+                )
+              })}
             </div>
           }
         </section>
