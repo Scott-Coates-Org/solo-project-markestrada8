@@ -1,4 +1,5 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=8038657&assignment_repo_type=AssignmentRepo)
+
 # React Redux Firebase Starter
 
 ## Getting Started
@@ -79,6 +80,7 @@ Update your progress by checking off the tasks for each sprint. We will **not** 
 
 [*Replace me with mockups*]
 
-| ![Benjamin Bannekat](https://octodex.github.com/images/bannekat.png) | ![Benjamin Bannekat](https://octodex.github.com/images/bannekat.png) |
-|----------------------------------------------------------------------|----------------------------------------------------------------------|
-| ![Benjamin Bannekat](https://octodex.github.com/images/bannekat.png) | ![Benjamin Bannekat](https://octodex.github.com/images/bannekat.png) |
+| ![Home](images/home.jpg) | ![Individual](images/individual.jpg) |
+| ------------------------ | ------------------------------------ |
+
+| ![Group](images/group.jpg)
