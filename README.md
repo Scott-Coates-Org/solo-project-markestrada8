@@ -96,4 +96,4 @@ Update your progress by checking off the tasks for each sprint. We will **not** 
 | ![Home](images/home.jpg) | ![Individual](images/individual.jpg) |
 | ------------------------ | ------------------------------------ |
 
-| ![Group](images/group.jpg)|
+ ![Group](images/group.jpg)
