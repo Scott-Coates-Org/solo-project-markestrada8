@@ -48,7 +48,7 @@ export const fetchAllWidgets = createAsyncThunk(
       thunkAPI.dispatch(getDataSuccess(data));
     } catch (error) {
       console.error('error', error)
-      // Set any erros while trying to fetch
+      // Set any errors while trying to fetch
       thunkAPI.dispatch(getDataFailure(error));
     }
   }
@@ -61,7 +61,7 @@ export const createWidget = createAsyncThunk(
       await _createWidget(payload.title, payload.type, payload.photo);
     } catch (error) {
       console.error('error', error)
-      // Set any erros while trying to fetch
+      // Set any errors while trying to fetch
       thunkAPI.dispatch(createDataFailure());
     }
   }

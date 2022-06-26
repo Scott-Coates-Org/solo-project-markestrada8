@@ -3,6 +3,7 @@ import Home from 'components/home';
 import { AuthProvider, useAuth } from 'components/user/auth';
 import Login from 'components/user/login';
 import Logout from 'components/user/logout';
+import Editor from './pages/Editor'
 import { firebase } from 'firebase/client';
 import { createBrowserHistory } from 'history';
 import { useEffect } from "react";
@@ -52,6 +53,7 @@ function App() {
           <Switch>
             <Route path="/login" render={(routeProps) => <Login {...routeProps} {...props} firebase={firebase} />} />
             <Route path="/logout" render={(routeProps) => <Logout {...routeProps} {...props} firebase={firebase} />} />
+            <Route path="/editor" render={(routeProps) => <Editor {...routeProps} {...props} firebase={firebase} />} />
 
             {/* this must be on the bottom */}
             <ProtectedRoute path="/" component={Home} {...props} />
