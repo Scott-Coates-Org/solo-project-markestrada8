@@ -15,7 +15,7 @@ Update your progress by checking off the tasks for each sprint. We will **not** 
 - [x] Create mockups (physical paper, low-fi)
 - [X] Define scope (DM Scott for approval)
   - [x] Define milestones for each sprint
-  - [ ] Define final deliverable for v1
+  - [X] Define final deliverable for v1
 - App must
 
   - [ ] Be publicly accessible
@@ -26,6 +26,8 @@ Update your progress by checking off the tasks for each sprint. We will **not** 
   - [ ] Establish individual page w/ layout
   - [ ] Get DB connected / implement schema (user info {username, email, password}) (user data {title, content, tags})
   - [ ] Decide on auth method, review docs
+
+  Work for WYSIWYG approaching, connected with DB, decide navigation, establish full CRUD
 
 ### Sprint 2
 
