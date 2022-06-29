@@ -23,8 +23,8 @@ Update your progress by checking off the tasks for each sprint. We will **not** 
   - [ ] Have technical component 5% done
 
 - Initial milestones
-  - [ ] Establish individual page w/ layout
-  - [ ] Get DB connected / implement schema (user info {username, email, password}) (user data {title, content, tags})
+  - [X] Establish individual page w/ layout
+  - [X] Get DB connected / implement schema (user info {username, email, password}) (user data {title, content, tags})
   - [ ] Decide on auth method, review docs
 
   Work for WYSIWYG approaching, connected with DB, decide navigation, establish full CRUD
