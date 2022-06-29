@@ -11,9 +11,9 @@ Update your progress by checking off the tasks for each sprint. We will **not** 
 
 ### Sprint 1
 
-- [ ] Get app approved (DM Scott for approval)
+- [X] Get app approved (DM Scott for approval)
 - [x] Create mockups (physical paper, low-fi)
-- [ ] Define scope (DM Scott for approval)
+- [X] Define scope (DM Scott for approval)
   - [x] Define milestones for each sprint
   - [ ] Define final deliverable for v1
 - App must
