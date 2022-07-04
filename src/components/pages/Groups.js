@@ -1,17 +1,6 @@
-import React from 'react'
-import './pages.css'
+import React from "react";
+import "./Groups.css";
 
 export default function Groups() {
-  return (
-    <div className="title">
-    <div>hello</div>
-      <div>hello</div>
-      <div>hello</div>
-      <div>hello</div>
-      <div>hello</div>
-      <div>hello</div>
-      <div>hello</div>
-      <div>hello</div>
-      <div>hello</div></div>
-  )
+  return <h1>Groups</h1>;
 }

@@ -1,8 +1,6 @@
-import React from 'react'
-import './pages.css'
+import React from "react";
+import "./About.css";
 
 export default function About() {
-  return (
-    <div className="title">About</div>
-  )
+  return <h1>About</h1>;
 }

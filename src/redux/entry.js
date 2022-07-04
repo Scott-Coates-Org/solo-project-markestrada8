@@ -27,6 +27,9 @@ const entry = createSlice({
     createDataFailure: (state) => {
       state.hasErrors = true;
     },
+    deleteDataFailure: (state) => {
+      state.hasErrors = true;
+    },
   },
 });
 
@@ -63,6 +66,19 @@ export const createEntry = createAsyncThunk(
       console.error("error", error);
       // Set any errors while trying to fetch
       thunkAPI.dispatch(createDataFailure());
+    }
+  }
+);
+
+export const deleteEntry = createAsyncThunk(
+  "entry/deleteEntry",
+  async (payload, thunkAPI) => {
+    try {
+      await _deleteEntry(payload.id);
+    } catch (error) {
+      console.error("delete error", error);
+      // Set any errors while trying to fetch
+      thunkAPI.dispatch(deleteDataFailure());
     }
   }
 );
@@ -113,6 +129,15 @@ async function _createEntry(title, content) {
     .add({ title, content });
 
   return doc;
+}
+
+async function _deleteEntry(entry) {
+  const response = await firebaseClient
+    .firestore()
+    .collection("entries")
+    .doc({ id })
+    .delete();
+  return response;
 }
 
 // https://stackoverflow.com/a/31205878/173957

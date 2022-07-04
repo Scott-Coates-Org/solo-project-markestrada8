@@ -1,0 +1,194 @@
+body {
+  font-family: "Poppins", sans-serif;
+  color: #000000;
+}
+
+.top-background {
+  background-image: url("https://images.unsplash.com/photo-1471107340929-a87cd0f5b5f3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1073&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  color: #fff;
+}
+
+.organization-name {
+  font-size: 30px;
+}
+
+.organization-name a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.organization-name a:hover {
+  color: #ADADA1;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+.nav-link {
+  margin: 0 20px;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+.nav-link a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-link a:hover {
+  color: #adada1;
+  cursor: pointer;
+}
+
+.dropdown-item li a {
+  color: #000000 !;
+}
+
+.cta-btn {
+  background-color: #A8A6A1;
+  border-radius: 5px;
+  padding: 15px;
+  color: #fff;
+}
+
+.cta-btn:hover {
+  opacity: 70%;
+  cursor: pointer;
+}
+
+.cta-btn a:hover {
+  color: #fff;
+}
+
+.headline {
+  color: #151515;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 70px;
+  /* margin-bottom: 30px; */
+}
+
+.headline-a {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.headline-b {
+  font-size: 4rem;
+  margin-bottom: 50px;
+}
+
+.headline .cta-btn {
+  margin-bottom: 30px;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 50px;
+  background-color: rgb(230, 228, 228);
+}
+
+.hero-headline {
+  margin-bottom: 50px;
+  width: 70%;
+}
+
+.hero-body {
+  width: 80%;
+  margin-bottom: 100px;
+}
+
+.grid-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.grid-text {
+  margin: 30px;
+}
+
+.grid-text-title {
+  margin-bottom: 30px;
+}
+
+.grid-item img {
+  width: 50vw;
+
+}
+
+.grid-item .cta-btn {
+  width: 20vw;
+  align-self: center;
+  margin: auto;
+}
+
+.signup-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #e8ebee;
+  padding: 50px;
+}
+
+.signup-headline {
+  margin-bottom: 50px;
+  width: 70%;
+}
+
+.signup-body {
+  width: 80%;
+  margin-bottom: 30px;
+}
+
+.email-input {
+  margin-bottom: 20px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #3d3d3d;
+  color: rgb(237, 235, 235);
+  padding: 30px;
+}
+
+footer i {
+  color: white;
+  margin: 0 20px;
+}
+
+footer .contact {
+  margin-bottom: 30px;
+}
+
+footer .social-links {
+  margin-bottom: 30px;
+}

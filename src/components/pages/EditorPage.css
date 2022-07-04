@@ -1,0 +1,16 @@
+.entries {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 200px;
+  
+}
+
+.form {
+  width: 400px;
+
+}
