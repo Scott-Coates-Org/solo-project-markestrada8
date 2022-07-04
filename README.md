@@ -11,11 +11,11 @@ Update your progress by checking off the tasks for each sprint. We will **not** 
 
 ### Sprint 1
 
-- [ ] Get app approved (DM Scott for approval)
+- [X] Get app approved (DM Scott for approval)
 - [x] Create mockups (physical paper, low-fi)
-- [ ] Define scope (DM Scott for approval)
+- [X] Define scope (DM Scott for approval)
   - [x] Define milestones for each sprint
-  - [ ] Define final deliverable for v1
+  - [X] Define final deliverable for v1
 - App must
 
   - [ ] Be publicly accessible
@@ -23,9 +23,11 @@ Update your progress by checking off the tasks for each sprint. We will **not** 
   - [ ] Have technical component 5% done
 
 - Initial milestones
-  - [ ] Establish individual page w/ layout
-  - [ ] Get DB connected / implement schema (user info {username, email, password}) (user data {title, content, tags})
+  - [X] Establish individual page w/ layout
+  - [X] Get DB connected / implement schema (user info {username, email, password}) (user data {title, content, tags})
   - [ ] Decide on auth method, review docs
+
+  Work for WYSIWYG approaching, connected with DB, decide navigation, establish full CRUD
 
 ### Sprint 2
 
