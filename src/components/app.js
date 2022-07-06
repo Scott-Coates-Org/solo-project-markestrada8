@@ -1,9 +1,11 @@
+// import dotenv from "dotenv";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "components/pages/Home";
 import Login from "components/user/login";
 import Logout from "components/user/logout";
 import EditorPage from "./pages/EditorPage";
 import Editor from "./pages/Editor";
+import EntryDetail from "../components/entry/EntryDetail";
 
 import Groups from "./pages/Groups";
 import About from "./pages/About";
@@ -39,6 +41,7 @@ function App() {
   const props = {};
 
   Icons();
+  // dotenv.config();
 
   const dispatch = useDispatch();
 
@@ -84,6 +87,17 @@ function App() {
                 <EditorPage {...routeProps} {...props} firebase={firebase} />
               )}
             />
+
+            <Route
+              path="/entry/:slug"
+              render={(props) => (
+                <EntryDetail
+                  {...props}
+                  // loggedInStatus={loggedInStatus}
+                />
+              )}
+            />
+
             <Route
               path="/groups"
               render={(routeProps) => (

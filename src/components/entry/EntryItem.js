@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import striptags from "striptags";
 import Truncate from "react-truncate";
+import EntryDetail from "./EntryDetail";
 import "./EntryItem.css";
 
 const EntryItem = (props) => {
@@ -14,16 +15,16 @@ const EntryItem = (props) => {
   } = props.entryItem;
 
   return (
-    <div>
-      <Link to={`/b/${id}`}>
+    <div className="entry-item">
+      <Link to={`/entry/${id}`}>
         <h1 className="entry-item-title">{title}</h1>
       </Link>
       <div>
         <Truncate
-          lines={1}
+          lines={3}
           ellipsis={
             <span className="entry-item-content">
-              . . . <Link to={`/b/${id}`}>Read more</Link>
+              . . . <Link to={`/entry/${id}`}>Read more</Link>
             </span>
           }
         >

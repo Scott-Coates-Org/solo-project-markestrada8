@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import "./Home.css";
 
 export default function Home() {
+  console.log("test home: ", process.env.DICTIONARY_API_KEY);
   return (
     <div className="home-container">
       <section className="top-background">
@@ -105,7 +106,7 @@ export default function Home() {
 
       <footer>
         <div className="contact">
-          123 Demo Street, New York NY | (555) 555-5555 | email@example.com
+          123 Some Street, New York NY | (555) 555-5555 | email@email.com
         </div>
         <div className="social-links">
           <a className="social-link" href="#">

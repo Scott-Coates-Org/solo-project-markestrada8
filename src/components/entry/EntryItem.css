@@ -1,5 +1,13 @@
 .entry-item-title {
   font-size: 1.5em;
   color: #007bff;
-  
+}
+
+.entry-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 300px;
+  padding: 5px;
 }

@@ -1,0 +1,52 @@
+.entry-form-container {
+  display: grid;
+  gap: 21px;
+  grid-template-columns: 1fr;
+  padding: 42px;
+}
+
+input {
+  font-family: "Roboto", sans-serif;
+  color: #42454a;
+  padding: 5px 0px;
+  width: 100%;
+  border: 0px;
+  border-bottom: 1px solid #007bff;
+  background-color: transparent;
+  transition: 0.5s all ease-in-out;
+  font-size: 1.1em;
+  margin-bottom: 21px;
+}
+
+input:focus {
+  outline: none;
+  border-bottom: 1px solid #054890;
+}
+
+.image-uploaders {
+  display: grid;
+  gap: 21px;
+  grid-template-columns: 200px;
+}
+.one-column {
+  display: grid;
+  gap: 21px;
+  grid-template-columns: 1fr;
+}
+
+.btn {
+  cursor: pointer;
+  height: 42px;
+  width: 30%;
+  padding: 0 25px;
+  font-size: 1em;
+  font-weight: 500;
+  border: 1px solid transparent;
+  transition: all 0.5s ease-in-out;
+  background-color: #007bff;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #054890;
+}
