@@ -54,7 +54,7 @@ export default function Editor() {
 
   return (
     // <Layout {...props}>
-    <nav className="d-flex flex-column align-items-center">
+    <div className="d-flex flex-column align-items-center">
       <h1 className="my-3 text-center" style={{ color: "blue" }}>
         Editor
       </h1>
@@ -117,7 +117,7 @@ export default function Editor() {
           </div>
         )}
       </section>
-    </nav>
+    </div>
     // </Layout>
   );
 }

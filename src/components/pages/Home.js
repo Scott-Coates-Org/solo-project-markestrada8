@@ -19,6 +19,7 @@ export default function Home() {
             <div className="news nav-link">
               <NavLink to="/editor">Editor</NavLink>
             </div>
+
             <div className="readme nav-link">
               <NavLink to="/groups">Groups</NavLink>
             </div>

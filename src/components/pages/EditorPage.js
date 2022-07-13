@@ -208,8 +208,8 @@ export default function EditorPage() {
     //     </div>
     //   )}
     // </div>
-    <nav className="d-flex flex-column align-items-center">
-      <h1 className="my-3 text-center" style={{ color: "#007bff" }}>
+    <nav className="editor d-flex flex-column align-items-center">
+      <h1 className="title my-3 text-center" style={{ color: "#000000" }}>
         Editor
       </h1>
       <section>
@@ -266,7 +266,10 @@ export default function EditorPage() {
             {/* {this.props.loggedInStatus === "LOGGED_IN" ? ( */}
             <div className="new-entry-link">
               <a onClick={handleNewEntryClick}>
-                <FontAwesomeIcon className="new-entry-icon" icon={"plus-circle"} />
+                <FontAwesomeIcon
+                  className="new-entry-icon"
+                  icon={"plus-circle"}
+                />
               </a>
             </div>
             {/* ) : null} */}

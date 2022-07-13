@@ -50,10 +50,12 @@ Update your progress by checking off the tasks for each sprint. We will **not** 
 
 ### Sprint 4
 
-- [ ] Technical component 100%
+- [x] Technical component 100%
+      API functional
+      Figure out auth for saving data
 
-- [ ] Finalize functionality (DB, routing, auth, forms, layout)
-- [ ] Handle depolyment details
+- [/] Finalize functionality (DB, routing, auth, forms, layout)
+- [?] Handle depolyment details
 - [ ] test user stories (for individual with / without signup, with group an admin and member functionality)
 
 ## Mockups
